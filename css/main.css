@@ -1,0 +1,151 @@
+body
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    color:white;
+}
+
+body
+{
+    background-color:#1d1e21;
+    margin:0px;
+}
+
+#football_logo
+{
+    position:relative;
+    width:10%;
+    height:10%;
+    top:0px;
+    left:0px;
+}
+
+nav
+{
+    
+    width:20%;
+    height:100%;
+    padding:20px;
+    background-color:rgb(15, 87, 15);
+    display:none;
+    text-align:center;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+
+
+.navlink
+{
+    background-color:rgb(89, 44, 44);
+    color:white;
+    text-decoration:none;
+    font-size:1.5vw;
+    padding:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:90%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-family:'Courier New';
+    font-weight:bolder;
+}
+
+.navlink:hover
+{
+    background-color:black;
+    color:red;
+}
+
+#max_leo
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:20%;
+}
+
+footer
+{
+    color:white;
+    margin-top:40px;
+    margin-left:20px;
+
+}
+
+main
+{
+    margin:20px;
+
+}
+
+#menu_button
+{
+    position:relative;
+    left:82%;
+}
+
+#menu_icon
+{
+    width:6%;
+    height:6%;
+}
+
+#home_text
+{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgb(15, 87, 15);
+    font-family:'Courier New';
+    border-color:rgb(89, 44, 44);
+    border-style:solid;
+    border-width:20px;
+    color:white;
+    width:50%;
+    padding:5px;
+    text-align:center;
+    font-weight:bolder;
+    font-size:1.5vw;
+
+}
+
+form
+{
+    background-color:rgb(15, 87, 15);
+    border-color:rgb(89, 44, 44);
+    border-style:solid;
+    border-width:10px;
+    font-family:'Courier New';
+    padding:20px;
+    font-size:20px;
+}
+
+input, select
+{
+    font-size:20px;
+    background-color:black;
+    color:red;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.form_section
+{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#join
+{
+    padding:10px;
+    font-weight:bolder;
+}
+
+h2
+{
+    text-decoration:underline;
+    font-size:16px;
+}
