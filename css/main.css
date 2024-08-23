@@ -164,3 +164,23 @@ h1
     text-align:center;
 }
 
+@media screen and (max-width:1200px) {
+    
+    #football_logo
+    {
+        width:15%;
+        height:15%;
+    }
+
+    #menu_icon
+    {   
+        width:10%;
+        height:10%;
+    }   
+
+    #menu_button
+    {
+        left:72%;
+    }
+}
+
