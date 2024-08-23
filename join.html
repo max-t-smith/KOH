@@ -28,7 +28,7 @@
                 <br>
                 <a class="navlink" href="picksheet.html">View Picksheet</a>
                 <br>
-                <a class="navlink" href = "rules.html">Rules</a>
+                <a class="navlink" href = "rules.html">Official Rules</a>
                 <br>
                 <a class="navlink" href = "hof.html">Hall of Fame</a>
                 <br>
@@ -42,6 +42,7 @@
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_subject" value="New KOH Entry">
                 <input type="hidden" name="_next" value="https://max-t-smith.github.io/KOH/payment.html">
+                <input type="hidden" id = "_cc" name="_cc" value="">
                 <div class="form_section">
                     <input class = "join" id="fname" name = "fname" type="text" placeholder="Aaron" required>
                     <br>
@@ -115,7 +116,7 @@
                 </div>
                 
                 <div class="form_section">
-                    <input class="join" id="join" type="submit" value="Join Up!">
+                    <input class="join" id="join" type="submit" value="Join Up!" onclick="sendJoinEmail()">
                 </div>
                 
 
