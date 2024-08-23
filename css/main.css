@@ -182,5 +182,18 @@ h1
     {
         left:72%;
     }
+
+    nav
+    {
+        
+        width:25%;
+    }
+
+    .navlink
+    {
+        
+        font-size:2vw;
+        
+    }
 }
 
