@@ -10,7 +10,7 @@ function hideMenu()
     document.getElementById("menu_icon").style.display ="inline";
 }
 
-function sendJoinEmail()
+function sendCCEmail()
 {
     document.getElementById("_cc").value = document.getElementById("email").value;
 }
