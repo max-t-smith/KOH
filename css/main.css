@@ -87,6 +87,7 @@ main
 {
     position:relative;
     left:82%;
+    
 }
 
 #menu_icon
@@ -148,4 +149,12 @@ h2
 {
     text-decoration:underline;
     font-size:16px;
+}
+
+.red_border
+{
+    border-style: solid;
+    border-color:red;
+    border-width:3px;
+    padding:10px;
 }
