@@ -13,5 +13,6 @@ function hideMenu()
 function sendCCEmail()
 {
     document.getElementById("_cc").value = document.getElementById("email").value;
+    document.querySelector('form').submit();
 }
 
